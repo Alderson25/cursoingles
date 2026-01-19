@@ -1,8 +1,7 @@
 
 import React, { useState } from 'react';
-import Navbar from './components/Navbar';
-import LeadForm from './components/LeadForm';
-import ThankYouPage from './components/ThankYouPage';
+import LeadForm from './LeadForm';
+import ThankYouPage from './ThankYouPage';
 import { LESSONS, TESTIMONIALS } from './constants';
 
 const App: React.FC = () => {
